@@ -13,44 +13,13 @@ font-family: 'Trispace', sans-serif;
 */
 
 body{
-    background-image: url('/img/Clever\ cat\ \(1\).png');
-    background-size: cover;
-    background-attachment: fixed;
     font-family: var(--titulo-principal)
 }
 
-h1, strong {
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: underline;
+.caja-madre {
+    background: chocolate;
+    width: 80%;
+    padding: 20px;
+    border: solid 5px black;
+    box-sizing: border-box;
 }
-
-h2 {
-    text-align: center;
-    text-transform: capitalize;
-}
-
-
-p, .parrafo1{
-    color: blue;
-    font-family: var(--titulo-subtitulo);
-    font-size: 20px;
-    line-height: 28px;
-}
-
-p, .parrafo2{
-    color: brown;
-    font-family: var(--titulo-parrafo);
-    font-size: 30px;
-    line-height: 38px;
-}
-
-img{
-   opacity: 0.5;
-}
-
-ol, ul {
-    background-color: aqua;
-    list-style-type: decimal-leading-zero;
-}
-
