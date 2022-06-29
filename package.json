@@ -1,0 +1,16 @@
+{
+  "name": "proyectostawars",
+  "version": "1.0.0",
+  "description": "proyecto de playground",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matias Sabbadini",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "normalize.css": "^8.0.1"
+  }
+}

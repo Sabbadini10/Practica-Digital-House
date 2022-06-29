@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Open+Sans:ital@1&family=Trispace:wght@500&display=swap');
+
+:root {
+    --titulo-principal: 'Trispace', sans-serif;
+    --titulo-parrafo: 'Open Sans', sans-serif;
+    --titulo-subtitulo: 'League Gothic', sans-serif;
+}
+
+/*
+font-family: 'League Gothic', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Trispace', sans-serif;
+*/
+
+body{
+    background-image: url('/img/Clever\ cat\ \(1\).png');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: var(--titulo-principal)
+}
+
+h1, strong {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+p, .parrafo1{
+    color: blue;
+    font-family: var(--titulo-subtitulo);
+    font-size: 20px;
+    line-height: 28px;
+}
+
+p, .parrafo2{
+    color: brown;
+    font-family: var(--titulo-parrafo);
+    font-size: 30px;
+    line-height: 38px;
+}
+
+img{
+   opacity: 0.5;
+}
+
+ol, ul {
+    background-color: aqua;
+    list-style-type: decimal-leading-zero;
+}
+
